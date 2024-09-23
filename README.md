@@ -1,5 +1,4 @@
 # Virtual Environment Setup
-
 To set up and activate a virtual environment called `case-env`, follow these steps:
 
 1. **Navigate to your project directory:**
@@ -28,7 +27,12 @@ To set up and activate a virtual environment called `case-env`, follow these ste
     pip install -r requirements.txt
     ```
 
-5. **Deactivate the virtual environment when done:**
+5. **Run Jupyter Notebook:**
+    ```sh
+    jupyter notebook
+    ```
+
+6. **Deactivate the virtual environment when done:**
     ```sh
     deactivate
     ```
